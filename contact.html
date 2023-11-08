@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+      <title>Country Guide App</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="slideshow.css">
+      <link rel="stylesheet" href="banner.css">
+      <link rel="stylesheet" href="footer.css">
+  </head>
+  <body>
+      <header>
+  <div class="topnav" id="myTopnav">
+  
+    <a href="index.html" class="active">Home</a>
+  
+    <div class="subnav">
+      <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="weather/index.html">Weather</a>
+        <a href="Googlemap.html">Maps</a>
+        <a href="TheContinents.html"> 7 Continents</a>
+        <a href="HistoricalPlace/homepage.html">Top Country</a>
+      
+      </div>
+    </div> 
+  
+      <a href="contact.html" >Contact</a>
+      <a href="about.html" >About</a>
+  <button class=" login-btn" onclick="myfunction()" type="submit"> <i class="fa fa-user-circle"  aria-hidden="true"></i> Log in</button>
+  <button class=" login-btn" onclick="myfunction()" type="submit"><i class="fa fa-sign-in" aria-hidden="true"></i>  Sign up</button>
+  <script>
+    function myfunction(){
+      location.replace('login/index.html')
+    }
+  
+  </script>
+  
+  
+  </div>
+      </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="contain">
+
+        <div class="wrapper">
+      
+          <div class="form">
+            <h4>GET IN TOUCH</h4>
+            <h2 class="form-headline">Send us a message</h2>
+            <form id="submit-form" action="">
+              <p>
+                <input id="name" class="form-input" type="text" placeholder="Your Name*">
+                <small class="name-error"></small>
+              </p>
+              <p>
+                <input id="email" class="form-input" type="email" placeholder="Your Email*">
+                <small class="name-error"></small>
+              </p>
+              <p class="full-width">
+                <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+                <small></small>
+              </p>
+              <p class="full-width">
+                <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+                <small></small>
+              </p>
+              <p class="full-width">
+                <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+              </p>
+              <p class="full-width">
+                <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+                <button class="reset-btn" onclick="reset()">Reset</button>
+              </p>
+            </form>
+          </div>
+      
+          <div class="contacts contact-wrapper">
+      
+            <ul>
+              <li>We've driven online revenues of over <span class="highlight-text-grey">$2
+                  billion</span> for our clients. Ready to know
+                how we can help you?</li>
+              <span class="hightlight-contact-info">
+                <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> countryguide@gmail.com</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 9511689394</span></li>
+              </span>
+            </ul>
+          </div>
+        </div>
+      </div>  
+       
+      
+<footer>
+
+
+  <section id="footer">
+    <div class="main-footer">
+      <div class="logoinfo" data-aos="fade-up">
+<div><img src="Images/logo.png" width="120px" height="120%"></div>
+  
+        <div class="contact-details">
+          <h1>Contact Us</h1>
+          <li>
+            <div class="fa fa-phone"></div><a href="tel:+919511689394">+91 9511689394</a></li>
+          <li>
+            <div class="fa fa-envelope"></div><a href="mailto:collegeinfopk02@gmail.com">thecountryguide@gmail.com</a></li>
+          </li>
+      </div>
+    </div>
+    <div class="com " data-aos="fade-up">
+      <h1>About</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="s">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="info" data-aos="fade-up">
+      <h1>Social Media</h1>
+      <div class="sociallogos">
+        <div class="logobox">
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-youtube-play"></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  <footer>© Your Copyright 2022 All Rights Reserved
+    <br>
+    <p>The County Guide App 2.0</p>
+  </footer>
+  </section>
+
+</footer>
+<script src="jsfile/contact.js"></script>
+
+
+</body>
+</html>
